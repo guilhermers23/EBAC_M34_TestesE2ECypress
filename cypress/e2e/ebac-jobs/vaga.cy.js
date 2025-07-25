@@ -9,7 +9,7 @@ describe("Teste com a página para candidatura de vagas", () => {
         cy.get(':nth-child(1) > .Vaga_vagaLink__DeFkk').click();
         cy.get('.Aplicacao_aplicacao__uGZIR > h2').contains('Candidate-se para a vaga Desenvolvedor front-end').should('be.visible');
         cy.get('input').should('have.length', 7);
-
+        cy.screenshot('formulario-candidatura');
     });
 
     it("Verificar se campo seráo preenchidos e enviado", () => {
@@ -23,5 +23,7 @@ describe("Teste com a página para candidatura de vagas", () => {
         cy.get('.Aplicacao_button__tw2AE').click();
 
         cy.on('window:alert', (conteudo) => expect(conteudo).contain('Obrigado pela candidatura!'));
+
+        cy.screenshot('formulario-candidatura-preenchido');
     })
-})
+});

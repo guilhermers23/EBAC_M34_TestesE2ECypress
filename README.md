@@ -24,3 +24,11 @@ Neste módulo aprenderemos a escrever testes E2E (end-to-end, de ponta a ponta).
 - usar a função beforeEach para executar uma ação antes de cada teste;
 - conhecer o tipo de retorno que o Cypress devolve após a ação de teste;
 - organizar os códigos para redução de linhas.
+
+## ✏️ Aula 4 - Explore recursos extras do Cypress
+
+- conhecer recursos adicionais do Cypress;
+- instalar o cypress run;
+- visualizar os prints e vídeos que o Cypress fez;
+- fazer screenshot no Cypress;
+- gerar relatórios no Cypress.

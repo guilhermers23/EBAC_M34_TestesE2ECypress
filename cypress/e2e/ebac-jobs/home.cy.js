@@ -13,5 +13,6 @@ describe("Testes para a Home EBAC Jobs", () => {
         cy.get(".FormVagas_campo__E1ppF").type("desenvolvedor front-end")
         cy.get("button[type='submit']").click()
         cy.get(".ListaVagas_vagas__gmNZn > li").should("have.length", 2)
+        cy.screenshot('vagas-front-end');
     })
 });
