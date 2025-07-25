@@ -18,3 +18,9 @@ Neste módulo aprenderemos a escrever testes E2E (end-to-end, de ponta a ponta).
 - apresentar o Cypress para o VScode para usar o autocomplete;
 - usar relações hierárquicas;
 - construir teste da filtragem.
+
+## ✏️ Aula 3 - Manipule formulários
+
+- usar a função beforeEach para executar uma ação antes de cada teste;
+- conhecer o tipo de retorno que o Cypress devolve após a ação de teste;
+- organizar os códigos para redução de linhas.
