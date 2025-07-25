@@ -1,0 +1,16 @@
+{
+  "name": "m34-testes-cypress",
+  "version": "1.0.0",
+  "description": "Neste módulo aprenderemos a escrever testes E2E (end-to-end, de ponta a ponta).",
+  "license": "ISC",
+  "author": "Ebac",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "cypress",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "cypress": "^14.5.2"
+  }
+}
