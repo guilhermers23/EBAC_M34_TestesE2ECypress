@@ -7,7 +7,7 @@ describe("Teste com a página para candidatura de vagas", () => {
 
     it("Deve lever ao formulario de candidatura", () => {
         cy.get(':nth-child(1) > .Vaga_vagaLink__DeFkk').click();
-        cy.get('.Aplicacao_aplicacao__uGZIR > h2').contains('Candidate-se para a vaga Desenvolvedor front-end').should('be.visible');
+        cy.get('.Aplicacao_aplicacao__uGZIR > h2').should('have.text', 'Candidate-se para a vaga Desenvolvedor front-end');
         cy.get('input').should('have.length', 7);
         cy.screenshot('formulario-candidatura');
     });
